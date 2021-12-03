@@ -1,0 +1,151 @@
+.header {
+
+}
+li {
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  padding: 0px 30px;
+  margin-bottom: 30px;
+}
+.logo {
+  max-width: 100px;
+}
+.page-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.header-1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+
+}
+.menu-list {
+
+}
+.menu-list__item {
+  margin-bottom: 10px;
+}
+.menu-list__item:last-child {
+  margin-bottom: 0;
+}
+.menu-list__item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+.menu-list__item:hover a {
+  text-decoration: underline;
+}
+.history {
+  background-color: rgb(221, 220, 220);
+}
+.history-descr {
+  color: rgb(116, 101, 65);
+}
+.history-image {
+  max-width: 420px;
+}
+.history-list {
+  margin-top: 20px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: rgb(31, 26, 26);
+}
+ol li {
+  list-style-type: auto;
+}
+.rule {
+  background-color: rgb(107, 135, 168);
+}
+.news {
+  background-color: rgb(157, 141, 174);
+}
+.news-card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  max-width: 400px;
+  transition: .3s all;
+  cursor: pointer;
+}
+.news-card:hover {
+  transform: translateY(-5px);
+}
+.news-wrap {
+  display: flex;
+  padding: 10px 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.news-card__title {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.news-card__date {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.news-card__more {
+  font-size: 22px;
+}
+
+.price {
+  color: rgb(36, 31, 31);
+  background: rgb(172, 227, 194);
+}
+.base {
+  background: rgb(216, 126, 156);
+}
+.base-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  max-width: 625px;
+}
+.base-card-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.base-top {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.base-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.base-img {
+  max-width: 50px; 
+}
+.base-img img{
+  margin-right: 15px;
+  max-width: 50px; 
+}
+.base-body {
+  
+}
+.base-card ul{
+  flex-direction: column;
+  list-style-type: decimal;
+}
+.base-card ul li{
+  margin-bottom: 10px;
+  list-style-type: disclosure-closed;
+}
